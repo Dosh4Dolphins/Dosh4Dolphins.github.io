@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: crimson;
+}
+p {
+  text-align: center;
+  color: crimson;
+}
+.column {
+  float: left;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

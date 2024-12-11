@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'comic_sans_msregular';
+    src: url(../comicsans/fart-webfont.woff);
+    }
+
+body {
+  background-image: url("../images/global/bg.gif");
+  background-repeat: repeat;
+  background-color: #ADD8E6;
+  color: black;
+  font-family: "comic_sans_msregular";
+  font-size: 100%;
+}
+h1 {
+  color: #191970;
+  font-size: large;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+h2 {
+  text-align:center;
+  color: #800000;
+}
+.column {
+  float: left;
+  margin: auto;
+  width: 8%;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  padding: 15px 50px;
+  vertical-align: top;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #6495ED;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {
+  background-color: #5681CC;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+p {
+  font-size: large;
+  color: #031A6B;
+  text-align: center;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+p2 {
+  font-size: large;
+  color: #031A6B;
+  text-align: center;
+  background-color: #ADD8E6;
+}
+.poopbox img {
+    float: left;
+}
+.poopbox p {
+    float: right;
+}
+table {
+  text-align:center;
+}
+label {
+  color: #191970;
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 2%;
+  text-align: right;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+input {
+}
+.side-ad {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  text-align: center;
+}
+
+.left-ad {
+  left: 15%;
+}
+
+.right-ad {
+  right: 15%;
+}
