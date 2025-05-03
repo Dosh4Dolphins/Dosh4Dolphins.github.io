@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'comic_sans_msregular';
+    src: url(../comicsans/fart-webfont.woff);
+    }
+body {
+  background-image: url("../images/global/bg.gif");
+  background-repeat: repeat;
+  background-color: #ADD8E6;
+  color: black;
+  font-family: "comic_sans_msregular";
+  font-size: 100%;
+}
+h1 {
+  color: #191970;
+  font-size: large;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+h2 {
+  color: #191970;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+p {
+  background-color: #ADD8E6;
+  color: #191970;
+  font-size: large;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+table {
+  text-align:center;
+}
+table img {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  object-fit: cover;
+}
+table div {
+  color: #191970;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.outer-table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        .outer-table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        .image-cell {
+            width: 50%;
+        }
+        .inner-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .inner-table th, .inner-table td {
+          background-color: lightblue;
+            border: 1px solid grey;
+            padding: 8px;
+            text-align: left;
+        }
+        .inner-table th {
+            background-color: lightblue;
+        }
